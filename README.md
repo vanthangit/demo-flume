@@ -8,7 +8,7 @@ docker exec -it kafka kafka-topics.sh --create --topic log_topic --bootstrap-ser
 ```
 #### Tạo log mẫu
 ```bash
-docker exec -it flume python -u /opt/log/log_generator.py
+docker exec -it flume python3 -u /opt/log/log_generator.py
 ```
 ### Chạy Spark Job:
 
